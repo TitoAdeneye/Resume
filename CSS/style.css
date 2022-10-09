@@ -90,6 +90,7 @@ nav{
 /* press */
 #press img{
     height: 4rem;
+    margin-bottom: 0.5rem;
     margin-left: 1rem;
     width: 6rem;
 }
@@ -128,6 +129,7 @@ nav{
 #cta .btn{
     border-color: aliceblue;
     color: aliceblue;
+    margin-bottom: 0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
