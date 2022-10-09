@@ -1,0 +1,171 @@
+/* body */
+body{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* container-fluid */
+.container-fluid{
+    padding: 3% 10%;
+}
+
+/* sections */
+.colored{
+    background-color: brown;
+    color: aliceblue;
+    padding: 1rem 0;
+}
+
+.white{
+    background-color: aliceblue;
+    color: rgb(14, 14, 25);
+    padding: 4rem 0;
+}
+
+/* landing-page */
+nav{
+    font-size: 1.5rem;
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.bdy{
+    text-align: left;
+}
+ 
+#tittle{
+    font-size: 4rem;
+}
+
+.cat-image{
+    border-radius: 100%;
+    height: 95%;
+    margin-left: 9%;
+    transform: rotate(25deg);
+    width: 75%;
+}
+
+/* feature */
+#feature .features{
+    padding: 2% 6%;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+#feature i{
+    color: brown;
+    margin-bottom: 1rem;
+}
+
+#feature i:hover{
+    color: rgb(221, 86, 86);
+}
+
+#feature p{
+    color: rgb(146, 141, 141);
+}
+
+/* testimonial */
+.carousel-item{
+    padding: 0 15%;
+}
+
+#testimonial h2{
+    font-size: 3rem;
+    padding: 5% 10% 5% 10%;
+}
+
+.cat{
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+}
+
+/* press */
+#press img{
+    height: 4rem;
+    margin-left: 1rem;
+    width: 6rem;
+}
+
+/* pricing */
+#pricing .price{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+#pricing .price h1{
+    padding-bottom: 1rem;
+}
+
+#pricing .card-header{
+    background-color: brown;
+    color: aliceblue;
+}
+
+.card-body .btn{
+    border-color: brown;
+    color: rgb(14, 14, 25);
+    font-size: medium;
+}
+
+/* call to action */
+#cta{
+    padding: 8rem;
+}
+
+#cta h2{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+#cta .btn{
+    border-color: aliceblue;
+    color: aliceblue;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#cta .btn:hover{
+    background-color: brown;
+    border-color: rgb(14, 14, 25);
+    color: rgb(14, 14, 25);
+}
+
+/* footer */
+#footer{
+    font-size: 1rem;
+    
+}
+
+#footer .icons{
+    margin-bottom: 1rem;
+}
+
+#footer i{
+    padding-right: 1rem;
+}
+
+#footer p{
+    color: rgb(146, 141, 141);
+}
+
+/* Media Query */
+@media (max-width:991px) {
+
+    #row{
+        text-align: center;
+    }
+
+    .cat-image{
+        margin-top: 2rem;
+        position: static;
+        transform: rotate(0);
+    }
+}
