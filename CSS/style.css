@@ -28,6 +28,10 @@ nav{
     font-size: 1.5rem;
 }
 
+nav a:hover{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .logo{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
